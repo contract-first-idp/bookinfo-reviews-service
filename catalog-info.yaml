@@ -5,6 +5,8 @@ metadata:
   description: "reviews service"
   tags:
     - java
+  annotations:
+    'backstage.io/kubernetes-id': reviews
 spec:
   type: service
   lifecycle: experimental
